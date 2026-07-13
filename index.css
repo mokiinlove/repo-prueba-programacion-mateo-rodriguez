@@ -6,6 +6,7 @@ body{
     background-size: cover;
     font-family: Geist Pixel;
     color: #4000ff;
+    cursor: url("./images/paw.cur") 0 0, auto;
 }
 
 h1{
@@ -173,7 +174,7 @@ p{
 .card-bases-img{
     width: 100%;
     transition: filter .35s ease;
-    filter: brightness(.75);
+    filter: brightness(.7);
 }
 
 .card p:hover .card-bases-img{
@@ -194,6 +195,7 @@ p{
     text-shadow: 0px 0px 5px #3100d3;
     opacity: 1;
     transition: opacity .35s ease, transform .35s ease;
+    cursor: url("./images/paw.cur") 0 0, auto;
 }
 
 .card p:hover .label-z-index{
