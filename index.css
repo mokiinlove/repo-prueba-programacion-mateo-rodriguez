@@ -18,7 +18,7 @@ p{
 }
 
 .full-div{
-    width: 100vw;
+    width: 98vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -110,6 +110,7 @@ p{
 svg{
     color: rgb(122, 122, 122);
     transition: all 0.2s;
+    cursor: url("./images/paw.cur") 0 0, auto;
 }
 
 .div-icon:hover svg{
@@ -120,6 +121,7 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
+    cursor: url("./images/paw.cur") 0 0, auto;
 }
 
 .card{
@@ -232,6 +234,12 @@ p{
         padding-right: 2.5vw;
         margin-left: 3vw;
         margin-right: 3vw;
+        box-shadow: 1vw 1vw #3100d3;
+    }
+
+    .middle-inside-div{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
     .separator{
@@ -256,5 +264,9 @@ p{
 
     .label-z-index{
         font-size: 10vw;
+    }
+
+    .img-ceja{
+        width: 20vh;
     }
 }
