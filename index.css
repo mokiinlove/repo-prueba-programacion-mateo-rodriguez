@@ -218,3 +218,69 @@ p{
     width: auto;
     margin-left: 5%;
 }
+
+@media (width <= 990px) {
+    body{
+        background-position-y: bottom; /* TO CHANGE LATER. FUTURE WALLPAPERS WONT LOOK GOOD AT THE BOTTOM */
+    }
+
+    .inside-div {
+        width: 425px;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .img-fetti-og{
+        width: 20vh;
+    }
+
+    .separator{
+        height: 20vh;
+    }
+
+    .icons-li{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .icon-tos{
+        margin-left: 0.5vw;
+    }
+
+    .menu-burger{
+        right: 2.5vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .burger-menu-svg{
+        width: 10vw;
+        height: 10vw;
+        margin: 1vw;
+        transition: all 0.25s ease;
+    }
+
+    .card p:hover{
+        flex: 4;
+    }
+
+    .card{
+        width: 93%;
+        height: auto;
+    }
+
+    .label-z-index{
+        font-size: 10vw;
+    }
+
+    .h1-bases{
+        margin: 0;
+        margin-top: 1vh;
+    }
+
+    .img-emote{
+        width: 5.5vw;
+    }
+}
