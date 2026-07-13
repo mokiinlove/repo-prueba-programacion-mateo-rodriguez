@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="./images/cat-smart.jpg">
 </head>
 <body>
 
@@ -26,7 +27,7 @@
 
                 <div class="separator"></div>
 
-                <img class="img-ceja" src="./images/ceja.jpg">
+                <img class="img-ceja" src="./images/ceja.jpg" onclick="playClick()">
             </div>
 
             <div class="middle-div-icons"> <!-- ICONOS -->
@@ -94,3 +95,7 @@
     
 </body>
 </html>
+
+<audio id="clickSound" src="./sound/meow.mp3" preload="auto"></audio>
+
+<script src="./sound.js"></script>
